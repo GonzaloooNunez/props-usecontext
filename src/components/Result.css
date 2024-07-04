@@ -1,0 +1,50 @@
+.result {
+  position: center;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+  margin-left: 790px;
+}
+
+.total {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.numbers {
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+button:focus {
+  outline: none;
+}
+
+.link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
